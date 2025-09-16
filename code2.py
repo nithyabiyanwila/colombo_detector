@@ -218,7 +218,7 @@ plot_min = work_clip.iloc[::stride].copy()
 
 # ---------------- Colored segmented selector (button-like) ----------------
 # CSS to make the radio horizontal, pill-shaped, and colored per option.
-st.markdown("""
+st.markdown(
 <style>
 /* horizontal layout */
 div.stRadio > div {flex-direction: row;}
