@@ -14,10 +14,10 @@ st.set_page_config(page_title="Muon Log Dashboard", layout="wide")
 st.title("Muon Detector Log Dashboard")
 
 # ---------------- GitHub source (EDIT THESE) ----------------
-GH_OWNER    = "your-username"      # e.g., "nithyabiyanwila"
-GH_REPO     = "your-repo"          # repo that contains the data folder
+GH_OWNER    = "nithyabiyanwila"      # e.g., "nithyabiyanwila"
+GH_REPO     = "colombo_detector"          # repo that contains the data folder
 GH_BRANCH   = "main"
-GH_DATA_DIR = "data"               # folder in repo containing .log/.txt/.csv
+GH_DATA_DIR = "colombo_data"               # folder in repo containing .log/.txt/.csv
 
 # Private repo? put GH_TOKEN in Streamlit Secrets
 GH_TOKEN = st.secrets.get("GH_TOKEN", None)
